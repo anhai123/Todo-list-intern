@@ -1,0 +1,141 @@
+@import  "../add_new_task/add-new-task.css";
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  button {
+    border: none;
+    margin: 0;
+    margin-right: 0.5rem;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    appearance: none;
+  }
+  button::-moz-focus-inner {
+    border: 0;
+  }
+
+
+.btn {
+    padding: 0.4rem 1rem 0.4rem;
+    border: 0.2rem solid #10ebd1;
+    background-color: #10ebd1;
+    cursor: pointer;
+    text-transform: capitalize;
+  }
+.btn_done {
+  border:rgb(0, 78, 245);
+  background-color: rgb(0, 78, 245);
+}
+  .btn__danger {
+    color: #fff;
+    background-color: #bd2130;
+    border-color: #bd2130;
+  }
+  .btn__filter {
+    border-color: lightgrey;
+  }
+  .btn__primary {
+    color: #fff;
+    background-color: #000;
+  }
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .btn-group > * {
+    flex: 1 1 49%;
+  }
+  .btn-group > * + * {
+    margin-left: 0.8rem;
+  }
+
+  .visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+  }
+
+
+  .stack-small {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+        list-style-position:inside;
+    border: 1px solid black;
+  }
+  .border-only{
+    list-style-position:inside;
+    border: 1px solid black;
+  }
+
+
+  /* checkbox style */
+  .c-cb {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+
+    display: block;
+    position: relative;
+height: 100%;
+    padding-left: 40px;
+    clear: left;
+    margin: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .c-cb > label::before,
+  .c-cb > input[type="checkbox"] {
+    box-sizing: border-box;
+    top: -2px;
+    left: -2px;
+   
+  }
+  .c-cb > input[type="checkbox"] {
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    margin: 0;
+    opacity: 0;
+  }
+  .c-cb > label {
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    display: inline-block;
+    margin-bottom: 0;
+    padding: 8px 15px 5px;
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+
+ .detail-todo {
+    padding: 1rem 1rem;
+ }
+
+ .footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d1c7c7b8;
+  margin: 2rem -3rem -3rem -3rem;
+flex-wrap: wrap;
+align-items: center;
+ }
+
+.bulk-label {
+  margin-left: 1rem;
+}

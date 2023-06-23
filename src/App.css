@@ -1,7 +1,28 @@
 .App {
-  text-align: center;
+  
+  margin: 2rem 3rem;
+}
+.center-text{
+text-align: center;
 }
 
+.bold{
+    font-weight: bold;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.section-margin {
+  margin-top: 2rem;
+}
+.item-margin {
+  margin-top: 1rem;
+}
+.display_inline-block{
+display: inline-block;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +56,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+.input-todo-borderColor{
+  border-color: rgba(91 89 83 / 23%);
 }
